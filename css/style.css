@@ -1,0 +1,152 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  color: #7f8c8d;
+  font-style: italic;
+  margin-top: 0;
+}
+
+/* Table Styles */
+#planets {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+#planets th {
+  background-color: #34495e;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#planets td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.feature-col {
+  text-align: left;
+  font-weight: bold;
+  background-color: #ecf0f1;
+}
+
+#planets tr:nth-child(even) {
+  background-color: #f2f6f9;
+}
+
+#planets tr:hover {
+  background-color: #e3f2fd;
+}
+
+.image-row img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #bdc3c7;
+  transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.1);
+  border-color: #3498db;
+}
+
+/* Earth, Mars, Jupiter, Saturn specific styling */
+#planets th:nth-child(2) {
+  background-color: #3498db;
+}
+
+#planets th:nth-child(3) {
+  background-color: #e74c3c;
+}
+
+#planets th:nth-child(4) {
+  background-color: #f39c12;
+}
+
+#planets th:nth-child(5) {
+  background-color: #9b59b6;
+}
+
+/* Facts Section */
+.planet-notes {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.planet-notes h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.planet-notes ul {
+  padding-left: 20px;
+}
+
+.planet-notes li {
+  margin-bottom: 8px;
+}
+
+.planet-notes strong {
+  color: #2c3e50;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
